@@ -1,14 +1,14 @@
 
 import './App.css'
-import { Calculator } from './components/Calculator'
+// import { Calculator } from './components/Calculator'
+import { Movies } from './moviesdb/Movies'
 
 function App() {
-
 
   return (
     <>
       <div>
-        <Calculator />
+        <Movies />
       </div>
     </>
   )
