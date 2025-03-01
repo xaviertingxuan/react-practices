@@ -18,3 +18,5 @@ UserGreeting.defaultProps = {
     isLoggedIn: false,
     username: 'Guest'
 }
+
+

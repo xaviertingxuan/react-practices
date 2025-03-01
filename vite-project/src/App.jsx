@@ -3,7 +3,7 @@ import './App.css'
 // import { Calculator } from './components/Calculator'
 import { Movies } from './moviesdb/Movies'
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -14,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+

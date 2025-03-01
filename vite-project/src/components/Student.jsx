@@ -18,7 +18,7 @@
 // }
 
 
-const Student = (props) => {
+export const Student = (props) => {
 
   const isStudent = props.isStudent ? "Yes" : "No"
 
@@ -31,4 +31,15 @@ const Student = (props) => {
     </div>
 
   )
+}
+
+
+//sum of two numbers
+
+export const sum = (props) => {
+  return (
+    <div>
+      <p>Sum of {props.a} and {props.b} is {props.a+props.b}</p> 
+      </div>
+  );
 }
